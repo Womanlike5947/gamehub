@@ -6,9 +6,9 @@ function App() {
       <Button
         colorScheme='blue'
         size={'lg'}
-        style={{ padding: '2vw', backgroundColor: 'red', color: 'white' }}
+        style={{ padding: '2vw', color: 'blue' }}
       >
-        Button
+        Got to 5 - Creating a Responsive Layout (00:29)
       </Button>
     </div>
   );
