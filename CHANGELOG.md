@@ -12,4 +12,5 @@
 - **Add:** 19 - Displaying the Genres
 - **Add:** 20 - Showing a Spinner
 - **Add:** 21 - Filtering Games by Genre
-- **Finished On:** 22 - Highlighting the Selected Genre
+- **Add:** 22 - Highlighting the Selected Genre
+- **Finished On:** 23 - Building Platform Selector

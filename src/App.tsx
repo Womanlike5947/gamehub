@@ -4,6 +4,7 @@ import GameGrid from './components/GameGrid';
 import GenreList from './components/GenreList';
 import { useState } from 'react';
 import { Genre } from './hooks/useGenres';
+import PlatformSelector from './components/PlatformSelector';
 
 function App() {
   // #region State
@@ -25,10 +26,14 @@ function App() {
       <Show above="lg">
         {/* This shall only show when the screen is above lg */}
         <GridItem area="aside" paddingX={5}>
-          <GenreList onSelectedGenre={(genre) => setSelectedGenre(genre)}  selectedGenre={selectedGenre}/>
+          <GenreList
+            onSelectedGenre={(genre) => setSelectedGenre(genre)}
+            selectedGenre={selectedGenre}
+          />
         </GridItem>
       </Show>
       <GridItem area="main">
+        <PlatformSelector />
         <GameGrid selectedGenre={selectedGenre} />
       </GridItem>
     </Grid>
