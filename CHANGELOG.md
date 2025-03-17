@@ -5,4 +5,5 @@
 ### Progress
 
 - **Started:** 14 - Getting Optimized Images
-- **Finished:** 15 - Improving User Experience with Loading Skeletons
+- **Add** 15 - Improving User Experience with Loading Skeletons
+- **Finished:** 16 - Removing Duplicate Styles
