@@ -9,4 +9,5 @@
 - **Add:** 16 - Removing Duplicate Styles
 - **Add:** 17 - Fetching the Genres
 - **Add:** 18 - Creating Generic Data Fetching Hooks
-- **Finished On:** 19 - Displaying the Genres
+- **Add:** 19 - Displaying the Genres
+- **Finished On:** 20 - Showing a Spinner
