@@ -11,13 +11,14 @@ function App() {
         base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`, // devices with a screen =< 1024px
       }}
+      templateColumns={{ base: '1fr', lg: '200px 1fr' }}
     >
       <GridItem area="nav">
         <NavBar />
       </GridItem>
       <Show above="lg">
         {/* This shall only show when the screen is above lg */}
-        <GridItem area="aside">
+        <GridItem area="aside" paddingX={5}>
           <GenreList />
         </GridItem>
       </Show>

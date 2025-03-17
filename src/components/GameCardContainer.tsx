@@ -9,7 +9,7 @@ interface IGameCardContainer {
 
 const GameCardContainer = ({ children }: IGameCardContainer) => {
   return (
-    <Box width={300} borderRadius={10} overflow={'hidden'}>
+    <Box borderRadius={10} overflow={'hidden'}>
       {children}
     </Box>
   );
