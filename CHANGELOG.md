@@ -11,4 +11,5 @@
 - **Add:** 18 - Creating Generic Data Fetching Hooks
 - **Add:** 19 - Displaying the Genres
 - **Add:** 20 - Showing a Spinner
-- **Finished On:** 21 - Filtering Games by Genre
+- **Add:** 21 - Filtering Games by Genre
+- **Finished On:** 22 - Highlighting the Selected Genre
