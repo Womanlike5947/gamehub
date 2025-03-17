@@ -1,7 +1,7 @@
 import useData from './useData';
 
 // #region Interface
-interface Genre {
+export interface Genre {
   id: number;
   name: string;
   slug: string;

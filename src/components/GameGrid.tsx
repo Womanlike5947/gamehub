@@ -3,9 +3,16 @@ import GameCard from './GameCard';
 import GameCardSkeleton from './GameCardSkeleton';
 import GameCardContainer from './GameCardContainer';
 import useGames from '../hooks/useGames';
+import { Genre } from '../hooks/useGenres';
 
-const GameGrid = () => {
-  const { data: games, error, isLoading } = useGames();
+// #region Interface
+interface IGameGrid {
+selectedGenre: Genre | null;
+}
+// #endregion
+
+const GameGrid = ({selectedGenre}: IGameGrid) => {
+  const { data: games, error, isLoading } = useGames(selectedGenre);
   const skeletons = [1, 2, 3, 4, 5];
   return (
     <>
