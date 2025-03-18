@@ -4,16 +4,16 @@ import GameCardSkeleton from './GameCardSkeleton';
 import GameCardContainer from './GameCardContainer';
 import useGames, { Platform } from '../hooks/useGames';
 import { Genre } from '../hooks/useGenres';
+import { GameQuery } from '../App';
 
 // #region Interface
 interface IGameGrid {
-selectedGenre: Genre | null;
-selectedPlatform: Platform | null;
+  gameQuery: GameQuery;
 }
 // #endregion
 
-const GameGrid = ({selectedGenre,selectedPlatform}: IGameGrid) => {
-  const { data: games, error, isLoading } = useGames(selectedGenre, selectedPlatform);
+const GameGrid = ({ gameQuery }: IGameGrid) => {
+  const { data: games, error, isLoading } = useGames(gameQuery);
   const skeletons = [1, 2, 3, 4, 5];
   return (
     <>

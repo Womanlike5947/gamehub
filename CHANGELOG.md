@@ -5,7 +5,7 @@
 ### Progress
 
 - **Finished On:** ??
-- **Add:** ??
+- **Add:** 25 - Extracting a Query Object
 - **Started On:** 24 - Filtering Games by Platform
 
 
