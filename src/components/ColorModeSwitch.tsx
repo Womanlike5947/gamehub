@@ -6,11 +6,11 @@ const ColorModeSwitch = () => {
     <HStack>
       {/* Changes the background of the page between light and dark */}
       <Switch
-        colorScheme='green'
+        colorScheme="green"
         isChecked={colorMode === 'dark'}
         onChange={toggleColorMode}
       />
-      <Text>Dark Mode</Text>
+      <Text whiteSpace="nowrap">Dark Mode</Text>
     </HStack>
   );
 };

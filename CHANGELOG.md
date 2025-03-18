@@ -4,7 +4,9 @@
 
 ### Progress
 
-- **Finished On:** 29 - Fixing the Issue with Chakra Menus
+- **Finished On:** 31 - Searching Games
+- **Add:** 30 - Building Search Input
+- **Add:** 29 - Fixing the Issue with Chakra Menus
 - **Add:** 28 - Handling Games without an Image
 - **Add:** 27 - Sorting Games
 - **Add:** 26 - Building Sort Selector
