@@ -4,7 +4,7 @@
 
 ### Progress
 
-- **Finished On:** ??
+- **Finished On:** 28 - Handling Games without an Image
 - **Add:** 27 - Sorting Games
 - **Add:** 26 - Building Sort Selector
 - **Add:** 25 - Extracting a Query Object
