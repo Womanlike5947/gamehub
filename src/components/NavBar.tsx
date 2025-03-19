@@ -8,11 +8,17 @@ import SearchInput from './SearchInput';
 }
 // #endregion
 
-const NavBar = () => {
+// #region Interface
+interface INavBar {
+  onSearch: (searchText: string) => void;
+}
+// #endregion
+
+const NavBar = ({onSearch}: INavBar) => {
   return (
     <HStack padding="10px">
       <Image src={logo} boxSize="60px" />
-      <SearchInput />
+      <SearchInput onSearch={onSearch}/>
       <ColorModeSwitch />
     </HStack>
   );
