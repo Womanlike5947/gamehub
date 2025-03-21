@@ -2,6 +2,7 @@
 
 ## [1.0.2] - 21-03-2025
 
+- **Add:** 33 - Cleaning up the Genres
 - **Started On:** 32 - Adding a Dynamic Heading
 
 ## [1.0.1] - 18-03-2025
@@ -16,7 +17,6 @@
 - **Add:** 26 - Building Sort Selector
 - **Add:** 25 - Extracting a Query Object
 - **Started On:** 24 - Filtering Games by Platform
-
 
 # [1.0.0] - 17-03-2025
 
