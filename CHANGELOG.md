@@ -2,6 +2,7 @@
 
 ## [1.0.2] - 21-03-2025
 
+- **Finished on:** 35 - Adding Emojis
 - **Add:** 34 - Cleaning Up the Game Cards
 - **Add:** 33 - Cleaning up the Genres
 - **Started On:** 32 - Adding a Dynamic Heading
