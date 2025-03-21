@@ -1,6 +1,10 @@
 # Changelog
 
-## [1.0.1] - 18-03-2024
+## [1.0.2] - 21-03-2025
+
+- **Started On:** 32 - Adding a Dynamic Heading
+
+## [1.0.1] - 18-03-2025
 
 ### Progress
 
@@ -14,7 +18,7 @@
 - **Started On:** 24 - Filtering Games by Platform
 
 
-## [1.0.0] - 17-03-2024
+# [1.0.0] - 17-03-2025
 
 ### Progress
 
