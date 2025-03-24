@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3] - 24-03-2025
+
+- **Started On:** 36 - Shipping Static Data
+
 ## [1.0.2] - 21-03-2025
 
 - **Finished on:** 35 - Adding Emojis
