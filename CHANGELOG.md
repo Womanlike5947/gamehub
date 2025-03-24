@@ -2,6 +2,8 @@
 
 ## [1.0.3] - 24-03-2025
 
+- **Finished on:** 40 - Deploying to Vercel
+- **Add:** 39 - Building for Production
 - **Add:** 38 - Refactoring Game Grid
 - **Add:** 37 - Customizing the Chakra Theme
 - **Started On:** 36 - Shipping Static Data
