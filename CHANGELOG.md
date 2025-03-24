@@ -2,6 +2,7 @@
 
 ## [1.0.3] - 24-03-2025
 
+- **Add:** 38 - Refactoring Game Grid
 - **Add:** 37 - Customizing the Chakra Theme
 - **Started On:** 36 - Shipping Static Data
 
